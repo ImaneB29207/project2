@@ -1,0 +1,139 @@
+.text-primary { color: red; }
+
+body {
+  background-color: #faebd7;
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+.navbar{
+  background-color: #afe2e9;
+}
+
+footer {
+    text-align: center;
+    color: #9f968a;
+    font: 12px helvetica;
+    display: block;
+    margin-top: 15px;
+}
+
+.gridProduct{
+  margin-left: 5px;
+}
+
+.gridProduct {
+  height: 100%;
+  width: 105%; }
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.small {
+  width: 300px;
+}
+
+h2 {
+    font-family: pacifico;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 26px;
+    color: #39b7c9;
+    border-bottom: 3px solid #39BFCC;
+    font-weight: normal;
+    margin-bottom: 24px;
+    line-height: 26px;
+}
+
+h3.black {
+    color: black;
+    border-bottom: solid 2px black;
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 20px;
+}
+
+.card {
+  background: #222;
+  border: 1px solid #dd2476;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.imEvent {
+  width: auto;
+  height: auto;
+}
+
+
+
+input[type=text],input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+h5 {
+    font-family: arial;
+    text-align: center;
+    margin-top: 15px;
+}
+
+input[type=submit]:hover {
+  background-color: #e32156;
+}
+
+input[type=submit] {
+  background-color: #39b7c9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 85%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
